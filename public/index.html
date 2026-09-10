@@ -1,1 +1,237 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="light">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="Screener">
+<title>Screener</title>
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📊</text></svg>">
+<style>
+  :root {
+    --bg: #f1f1ef;
+    --card: #ffffff;
+    --ink: #0a0a0a;
+    --muted: #86847e;
+    --faint: #b3b1ab;
+    --line: #ececea;
+    --chip: #ededeb;
+    --head: #fcfcfc;
+    --row: #f9f9f9;
+    --accent: #1f9254;
+    --accent-soft: #e2f5ea;
+    --warn: #b06000;
+    --warn-soft: #fbecd9;
+    --bad: #d64545;
+    --bad-soft: #fbe8e8;
+    --radius: 22px;
+    --radius-sm: 12px;
+    --radius-pill: 999px;
+    --shadow: 0 1px 2px rgba(20,20,15,.04), 0 10px 28px -16px rgba(20,20,15,.16);
+    --mono: ui-monospace, SFMono-Regular, "SF Mono", Menlo, monospace;
+    /* San Francisco — kept for buttons/toggles specifically, which were fine as-is. */
+    --sans: -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text",
+      "Segoe UI", Inter, Helvetica, Arial, sans-serif;
+    /* Futura — the general page font. Built into macOS, no download/embedding. */
+    --display: Futura, "Futura PT", "Century Gothic", var(--sans);
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--ink);
+    font: 15px/1.5 var(--display);
+    -webkit-font-smoothing: antialiased;
+    padding: env(safe-area-inset-top) 0 48px;
+  }
+  .wrap { max-width: 940px; margin: 0 auto; padding: 24px 16px; }
+
+  /* ---------- header ---------- */
+  header.hero {
+    background: var(--card); box-shadow: var(--shadow);
+    border-radius: var(--radius); padding: 26px 26px 20px; margin-bottom: 18px;
+  }
+  .hero-top { display: flex; justify-content: space-between; align-items: flex-start; gap: 12px 16px; flex-wrap: wrap; }
+  .hero-top > div:first-child { flex: 1 1 300px; min-width: 0; }
+  .hero-top .seg { flex: 0 0 auto; }
+  .eyebrow {
+    /* Ochre rather than the palette's green or red, which mean gain and loss on this page. */
+    font-size: clamp(19px, 3.6vw, 26px); font-weight: 700; color: var(--warn);
+    letter-spacing: .02em; text-transform: uppercase; line-height: 1.2;
+  }
+  .total {
+    font-size: 23px; font-weight: 700; letter-spacing: -.01em;
+    margin: 8px 0 0; font-variant-numeric: tabular-nums; color: var(--ink);
+  }
+  .total-sub { font-size: 16px; font-weight: 500; color: var(--muted); font-variant-numeric: tabular-nums; margin-top: 4px; }
+  .seg { display: flex; gap: 2px; background: var(--chip); border-radius: var(--radius-pill); padding: 3px; }
+  .seg button {
+    font: inherit; font-family: var(--sans); font-weight: 600; cursor: pointer; border: none;
+    padding: 6px 13px; font-size: 12.5px; background: none;
+    border-radius: var(--radius-pill); color: var(--muted); transition: .15s;
+  }
+  .seg button[aria-pressed="true"] { background: var(--card); color: var(--ink); box-shadow: 0 1px 3px rgba(0,0,0,.08); }
+
+  /* ---------- cards / tables ---------- */
+  .cols { display: grid; gap: 18px; }
+  @media (min-width: 860px) { .cols { grid-template-columns: 1fr 1fr; } }
+
+  section.card {
+    background: var(--card); box-shadow: var(--shadow);
+    border-radius: var(--radius); overflow: hidden;
+  }
+  .card-head {
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 16px 22px; background: var(--head); border-bottom: 1px solid var(--line);
+  }
+  .card-head h2 { margin: 0; font-size: 16px; font-weight: 700; letter-spacing: -.01em; color: var(--ink); }
+  .period { font-size: 12.5px; font-weight: 500; color: var(--muted); }
+  .scroll { overflow-x: auto; -webkit-overflow-scrolling: touch; }
+
+  /* Fixed layout: the numeric columns take exactly what they need and the stock
+     column absorbs the rest, so names get every spare pixel instead of the gap. */
+  table { width: 100%; border-collapse: collapse; font-size: 14px; table-layout: fixed; }
+  /* Widths fit the worst case each column can hold — "$4123.45" and "+187.44%" — so the
+     numbers never overflow into their own padding. */
+  th:nth-child(1), td:nth-child(1) { width: 34px; }
+  th:nth-child(3), td:nth-child(3) { width: 96px; }
+  th:nth-child(4), td:nth-child(4) { width: 112px; }
+  th {
+    text-align: left; padding: 8px 16px; font-size: 12.5px; font-weight: 500;
+    color: var(--muted); white-space: nowrap; background: var(--row);
+  }
+  th:first-child, td:first-child { padding-left: 22px; }
+  th:nth-child(2), td:nth-child(2) { padding-left: 12px; }
+  th:last-child, td:last-child { padding-right: 22px; }
+  td {
+    padding: 13px 16px; text-align: left; border-top: 1px solid var(--line);
+    font-variant-numeric: tabular-nums; white-space: nowrap;
+  }
+  tbody tr { background: var(--row); }
+  tbody tr:hover { background: var(--chip); }
+  .rank { color: var(--faint); font-size: 12.5px; padding-right: 0 !important; }
+  .sym, .sub { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .sym { font-weight: 700; letter-spacing: -.01em; }
+  .sub {
+    font-size: 11.5px; color: var(--faint); font-weight: 400; letter-spacing: 0; margin-top: 1px;
+  }
+  .val { font-weight: 700; }
+  .up { color: var(--accent); }
+  .down { color: var(--bad); }
+  .empty { padding: 34px 18px; text-align: center; color: var(--faint); font-size: 13.5px; }
+
+  /* Keep the Change column on screen on phones rather than behind a sideways scroll. */
+  @media (max-width: 520px) {
+    .wrap { padding: 16px 12px; }
+    header.hero { padding: 22px 18px 18px; }
+    th, td { padding: 12px 7px; }
+    th:first-child, td:first-child { padding-left: 14px; }
+    th:nth-child(2), td:nth-child(2) { padding-left: 8px; }
+    th:last-child, td:last-child { padding-right: 14px; }
+    .card-head { padding: 14px 18px; }
+    th:nth-child(1), td:nth-child(1) { width: 26px; }
+    /* Slightly smaller numerals on phones so the columns stay wide enough for the
+       worst case without starving the company-name column. */
+    th:nth-child(3), td:nth-child(3) { width: 80px; font-size: 13px; }
+    th:nth-child(4), td:nth-child(4) { width: 96px; font-size: 13px; }
+    .rank { font-size: 11.5px; }
+    .sub { font-size: 11px; }
+  }
+  footer { margin-top: 18px; font-size: 12px; color: var(--faint); line-height: 1.7; padding: 0 4px; }
+</style>
+</head>
+<body>
+
+<div class="wrap">
+
+  <header class="hero">
+    <div class="hero-top">
+      <div>
+        <div class="eyebrow">Screener &ndash; Amlani Pai Family Office</div>
+        <div class="total" id="asof">&mdash;</div>
+        <div class="total-sub" id="sub">Loading&hellip;</div>
+      </div>
+      <div class="seg" id="seg"></div>
+    </div>
+  </header>
+
+  <div class="cols">
+    <section class="card">
+      <div class="card-head"><h2>Winners</h2><span class="period" id="period-w"></span></div>
+      <div class="scroll">
+        <table>
+          <thead><tr><th></th><th>Stock</th><th>Price</th><th>Change</th></tr></thead>
+          <tbody id="winners"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <section class="card">
+      <div class="card-head"><h2>Losers</h2><span class="period" id="period-l"></span></div>
+      <div class="scroll">
+        <table>
+          <thead><tr><th></th><th>Stock</th><th>Price</th><th>Change</th></tr></thead>
+          <tbody id="losers"></tbody>
+        </table>
+      </div>
+    </section>
+  </div>
+
+  <footer id="footer"></footer>
+</div>
+
+<script>
+const LABELS = { "1D": "1 day", "1W": "1 week", "2W": "2 weeks", "1M": "1 month", "3M": "3 months" };
+const $ = id => document.getElementById(id);
+let data, active = "1D";
+
+function fmtDate(iso) {
+  const [y, m, d] = iso.split("-").map(Number);
+  return new Date(y, m - 1, d).toLocaleDateString("en-US",
+    { month: "short", day: "numeric", year: "numeric" });
+}
+
+function render() {
+  const set = data.timeframes[active];
+  const period = LABELS[active] || active;
+  $("period-w").textContent = period;
+  $("period-l").textContent = period;
+
+  for (const kind of ["winners", "losers"]) {
+    $(kind).innerHTML = set[kind].map((r, i) => `
+      <tr>
+        <td class="rank">${i + 1}</td>
+        <td>
+          <div class="sym">${r.ticker}</div>
+          <div class="sub">${r.name}</div>
+        </td>
+        <td>$${r.price.toFixed(2)}</td>
+        <td class="val ${r.pct >= 0 ? "up" : "down"}">${r.pct >= 0 ? "+" : ""}${r.pct.toFixed(2)}%</td>
+      </tr>`).join("") || `<tr><td colspan="4" class="empty">No results</td></tr>`;
+  }
+
+  document.querySelectorAll("#seg button").forEach(b =>
+    b.setAttribute("aria-pressed", String(b.dataset.tf === active)));
+}
+
+fetch("data.json?" + Date.now())
+  .then(r => r.json())
+  .then(d => {
+    data = d;
+    $("asof").textContent = fmtDate(d.as_of);
+    $("sub").textContent = "Top 20 movers · S&P 500 + VGT";
+    $("seg").innerHTML = Object.keys(d.timeframes)
+      .map(tf => `<button data-tf="${tf}" aria-pressed="false">${tf}</button>`).join("");
+    $("seg").onclick = e => {
+      const btn = e.target.closest("button[data-tf]");
+      if (btn) { active = btn.dataset.tf; render(); }
+    };
+    $("footer").innerHTML =
+      `Holdings from State Street (SPY) and Vanguard (VGT month-end ${d.sources.vgt_month_end}, ` +
+      `daily basket ${d.sources.vgt_basket}). Prices via Yahoo Finance.`;
+    render();
+  })
+  .catch(() => { $("sub").textContent = "Could not load data.json"; });
+</script>
+</body>
+</html>
 
