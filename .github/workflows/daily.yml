@@ -28,5 +28,24 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add public/data.json sectors.json
-          git diff --staged --quiet || git commit -m "Update screener data $(date -u +%Y-%m-%d)"
-          git push
+
+          if git diff --staged --quiet; then
+            echo "Data unchanged — nothing to commit."
+            exit 0
+          fi
+
+          git commit -m "Update screener data $(date -u +%Y-%m-%d)"
+
+          # The remote can move between checkout and push — a web edit, or an overlapping
+          # run — which rejects a plain push. Rebase onto whatever is there, then retry.
+          for attempt in 1 2 3; do
+            if git pull --rebase --autostash origin "$GITHUB_REF_NAME" && git push; then
+              echo "Pushed on attempt $attempt."
+              exit 0
+            fi
+            echo "Attempt $attempt failed; retrying in 5s."
+            sleep 5
+          done
+
+          echo "Could not push after 3 attempts."
+          exit 1
