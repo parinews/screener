@@ -38,6 +38,12 @@ TIMEFRAMES = {"1D": 1, "1W": 5, "2W": 10, "1M": 21, "3M": 63}
 
 XL_NS = "{http://schemas.openxmlformats.org/spreadsheetml/2006/main}"
 TICKER_RE = re.compile(r"[A-Z]{1,5}([.\-][A-Z])?$")
+CLASS_SUFFIX_RE = re.compile(r"[\s\-]+(?:CL|CLASS)\s+[A-Z]$", re.I)
+
+
+def clean_name(name):
+    """State Street's names carry doubled spaces and share-class suffixes the ticker already implies."""
+    return CLASS_SUFFIX_RE.sub("", re.sub(r"\s+", " ", name).strip())
 
 
 class SourceError(RuntimeError):
@@ -211,7 +217,6 @@ def build_tables(closes, volumes, names, sectors):
                     "name": names.get(ticker, ticker),
                     "sector": sectors.get(ticker, "—"),
                     "price": round(float(latest), 2),
-                    "volume": int(avg_volume),
                     "pct": round(float(latest / prior - 1) * 100, 2),
                 }
             )
@@ -230,9 +235,10 @@ def main():
     vgt, month_end, basket_date = fetch_vgt()
     print(f"  {len(vgt)} holdings (month-end {month_end}, basket {basket_date})")
 
+    # Vanguard's names are properly cased and shorter, so they win where a ticker is in both.
     names = {}
-    for ticker, name in {**vgt, **spy}.items():
-        names[ticker.replace(".", "-")] = name
+    for ticker, name in {**spy, **vgt}.items():
+        names[ticker.replace(".", "-")] = clean_name(name)
     universe = sorted(names)
     print(f"Universe: {len(universe)} unique tickers")
 
