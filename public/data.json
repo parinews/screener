@@ -1,6 +1,6 @@
 {
- "generated": "2026-11-25T10:46:59+00:00",
- "as_of": "2026-11-24",
+ "generated": "2026-11-26T10:20:19+00:00",
+ "as_of": "2026-11-25",
  "universe": 742,
  "sources": {
   "sp500": "State Street SPY daily holdings",
@@ -15,144 +15,144 @@
   "1D": {
    "winners": [
     {
-     "ticker": "DLTR",
-     "name": "DOLLAR TREE INC",
-     "sector": "Consumer Defensive",
-     "price": 154.65,
-     "pct": 11.18
-    },
-    {
-     "ticker": "CSGP",
-     "name": "COSTAR GROUP INC",
-     "sector": "Real Estate",
-     "price": 32.64,
-     "pct": 8.08
-    },
-    {
-     "ticker": "MRNA",
-     "name": "MODERNA INC",
-     "sector": "Healthcare",
-     "price": 227.38,
-     "pct": 7.21
+     "ticker": "HPQ",
+     "name": "HP Inc",
+     "sector": "Technology",
+     "price": 31.15,
+     "pct": 11.49
     },
     {
      "ticker": "CHTR",
      "name": "CHARTER COMMUNICATIONS INC A",
      "sector": "Communication Services",
-     "price": 135.87,
-     "pct": 6.21
+     "price": 147.27,
+     "pct": 8.39
     },
     {
-     "ticker": "NKE",
-     "name": "NIKE INC",
-     "sector": "Consumer Cyclical",
-     "price": 35.75,
-     "pct": 5.89
-    },
-    {
-     "ticker": "IP",
-     "name": "INTERNATIONAL PAPER CO",
-     "sector": "Consumer Cyclical",
-     "price": 30.62,
-     "pct": 5.66
-    },
-    {
-     "ticker": "AMGN",
-     "name": "AMGEN INC",
-     "sector": "Healthcare",
-     "price": 473.94,
-     "pct": 5.55
-    },
-    {
-     "ticker": "INCY",
-     "name": "INCYTE CORP",
-     "sector": "Healthcare",
-     "price": 123.61,
-     "pct": 5.33
-    },
-    {
-     "ticker": "TTWO",
-     "name": "TAKE TWO INTERACTIVE SOFTWRE",
-     "sector": "Communication Services",
-     "price": 220.41,
-     "pct": 5.28
-    },
-    {
-     "ticker": "PODD",
-     "name": "INSULET CORP",
-     "sector": "Healthcare",
-     "price": 140.63,
-     "pct": 5.11
-    },
-    {
-     "ticker": "TSCO",
-     "name": "TRACTOR SUPPLY COMPANY",
-     "sector": "Consumer Cyclical",
-     "price": 39.45,
-     "pct": 5.0
-    },
-    {
-     "ticker": "SWKS",
-     "name": "Skyworks Solutions Inc",
+     "ticker": "SEDG",
+     "name": "SolarEdge Technologies Inc",
      "sector": "Technology",
-     "price": 80.95,
-     "pct": 4.97
+     "price": 19.7,
+     "pct": 8.18
     },
     {
-     "ticker": "HUM",
-     "name": "HUMANA INC",
-     "sector": "Healthcare",
-     "price": 402.72,
-     "pct": 4.96
+     "ticker": "SMTC",
+     "name": "Semtech Corp",
+     "sector": "Technology",
+     "price": 92.93,
+     "pct": 7.48
     },
     {
-     "ticker": "BIIB",
-     "name": "BIOGEN INC",
-     "sector": "Healthcare",
-     "price": 269.11,
-     "pct": 4.83
+     "ticker": "AXON",
+     "name": "AXON ENTERPRISE INC",
+     "sector": "Industrials",
+     "price": 343.05,
+     "pct": 7.43
     },
     {
-     "ticker": "REGN",
-     "name": "REGENERON PHARMACEUTICALS",
-     "sector": "Healthcare",
-     "price": 987.09,
-     "pct": 4.76
+     "ticker": "CDW",
+     "name": "CDW Corp/DE",
+     "sector": "Technology",
+     "price": 174.97,
+     "pct": 7.03
     },
     {
-     "ticker": "VRTX",
-     "name": "VERTEX PHARMACEUTICALS INC",
-     "sector": "Healthcare",
-     "price": 563.92,
-     "pct": 4.71
+     "ticker": "VYX",
+     "name": "NCR Voyix Corp",
+     "sector": "Technology",
+     "price": 10.56,
+     "pct": 6.77
     },
     {
-     "ticker": "TGT",
-     "name": "TARGET CORP",
+     "ticker": "BL",
+     "name": "BlackLine Inc",
+     "sector": "Technology",
+     "price": 28.42,
+     "pct": 6.56
+    },
+    {
+     "ticker": "ADI",
+     "name": "Analog Devices Inc",
+     "sector": "Technology",
+     "price": 333.11,
+     "pct": 6.44
+    },
+    {
+     "ticker": "PAR",
+     "name": "PAR Technology Corp",
+     "sector": "Technology",
+     "price": 23.67,
+     "pct": 6.38
+    },
+    {
+     "ticker": "AOSL",
+     "name": "Alpha & Omega Semiconductor Ltd",
+     "sector": "Technology",
+     "price": 22.67,
+     "pct": 6.18
+    },
+    {
+     "ticker": "YOU",
+     "name": "Clear Secure Inc",
+     "sector": "Technology",
+     "price": 54.38,
+     "pct": 6.15
+    },
+    {
+     "ticker": "KD",
+     "name": "Kyndryl Holdings Inc",
+     "sector": "Technology",
+     "price": 16.56,
+     "pct": 5.81
+    },
+    {
+     "ticker": "EXE",
+     "name": "EXPAND ENERGY CORP",
+     "sector": "Energy",
+     "price": 86.77,
+     "pct": 5.75
+    },
+    {
+     "ticker": "NOVT",
+     "name": "Novanta Inc",
+     "sector": "Technology",
+     "price": 109.53,
+     "pct": 5.39
+    },
+    {
+     "ticker": "IONQ",
+     "name": "IonQ Inc",
+     "sector": "Technology",
+     "price": 23.54,
+     "pct": 5.09
+    },
+    {
+     "ticker": "VPG",
+     "name": "Vishay Precision Group Inc",
+     "sector": "Technology",
+     "price": 44.49,
+     "pct": 4.95
+    },
+    {
+     "ticker": "LASR",
+     "name": "nLight Inc",
+     "sector": "Technology",
+     "price": 34.26,
+     "pct": 4.9
+    },
+    {
+     "ticker": "BG",
+     "name": "BUNGE GLOBAL SA",
      "sector": "Consumer Defensive",
-     "price": 176.06,
-     "pct": 4.68
+     "price": 88.15,
+     "pct": 4.87
     },
     {
-     "ticker": "ACN",
-     "name": "Accenture PLC",
-     "sector": "Technology",
-     "price": 232.32,
-     "pct": 4.51
-    },
-    {
-     "ticker": "BRO",
-     "name": "BROWN + BROWN INC",
-     "sector": "Financial Services",
-     "price": 76.01,
-     "pct": 4.51
-    },
-    {
-     "ticker": "GILD",
-     "name": "GILEAD SCIENCES INC",
-     "sector": "Healthcare",
-     "price": 178.29,
-     "pct": 4.51
+     "ticker": "GPGI",
+     "name": "GPGI Inc",
+     "sector": "Industrials",
+     "price": 15.25,
+     "pct": 4.81
     }
    ],
    "losers": [
@@ -160,141 +160,141 @@
      "ticker": "AMBA",
      "name": "Ambarella Inc",
      "sector": "Technology",
-     "price": 44.47,
-     "pct": -19.96
+     "price": 35.68,
+     "pct": -19.77
     },
     {
-     "ticker": "ADI",
-     "name": "Analog Devices Inc",
+     "ticker": "NTNX",
+     "name": "Nutanix Inc",
      "sector": "Technology",
-     "price": 312.95,
-     "pct": -17.37
+     "price": 46.3,
+     "pct": -15.19
     },
     {
-     "ticker": "SMTC",
-     "name": "Semtech Corp",
+     "ticker": "LRCX",
+     "name": "Lam Research Corp",
      "sector": "Technology",
-     "price": 86.46,
-     "pct": -16.97
+     "price": 185.01,
+     "pct": -5.68
     },
     {
-     "ticker": "AXTI",
-     "name": "AXT Inc",
+     "ticker": "AIP",
+     "name": "Arteris Inc",
      "sector": "Technology",
-     "price": 31.58,
-     "pct": -16.94
+     "price": 16.56,
+     "pct": -5.26
     },
     {
-     "ticker": "MXL",
-     "name": "MaxLinear Inc",
+     "ticker": "ORCL",
+     "name": "Oracle Corp",
      "sector": "Technology",
-     "price": 41.89,
-     "pct": -16.74
+     "price": 103.88,
+     "pct": -5.13
     },
     {
-     "ticker": "ICHR",
-     "name": "Ichor Holdings Ltd",
+     "ticker": "MU",
+     "name": "Micron Technology Inc",
      "sector": "Technology",
-     "price": 26.39,
-     "pct": -16.49
+     "price": 601.25,
+     "pct": -4.53
     },
     {
-     "ticker": "HPE",
-     "name": "Hewlett Packard Enterprise Co",
+     "ticker": "DDOG",
+     "name": "Datadog Inc",
      "sector": "Technology",
-     "price": 40.19,
-     "pct": -16.31
+     "price": 158.25,
+     "pct": -4.31
     },
     {
-     "ticker": "ALAB",
-     "name": "Astera Labs Inc",
-     "sector": "Technology",
-     "price": 191.3,
-     "pct": -13.88
+     "ticker": "J",
+     "name": "JACOBS SOLUTIONS INC",
+     "sector": "Industrials",
+     "price": 145.49,
+     "pct": -4.27
     },
     {
-     "ticker": "SITM",
-     "name": "SiTime Corp",
-     "sector": "Technology",
-     "price": 378.29,
-     "pct": -13.79
+     "ticker": "PWR",
+     "name": "QUANTA SERVICES INC",
+     "sector": "Industrials",
+     "price": 565.47,
+     "pct": -4.1
     },
     {
-     "ticker": "AEHR",
-     "name": "Aehr Test Systems",
-     "sector": "Technology",
-     "price": 41.89,
-     "pct": -13.65
+     "ticker": "WST",
+     "name": "WEST PHARMACEUTICAL SERVICES",
+     "sector": "Healthcare",
+     "price": 372.94,
+     "pct": -4.07
     },
     {
-     "ticker": "MTSI",
-     "name": "MACOM Technology Solutions Holdings Inc",
+     "ticker": "NVDA",
+     "name": "NVIDIA Corp",
      "sector": "Technology",
-     "price": 200.2,
-     "pct": -13.45
+     "price": 149.3,
+     "pct": -3.91
     },
     {
-     "ticker": "TTMI",
-     "name": "TTM Technologies Inc",
-     "sector": "Technology",
-     "price": 59.42,
-     "pct": -13.34
+     "ticker": "CEG",
+     "name": "CONSTELLATION ENERGY",
+     "sector": "Utilities",
+     "price": 235.28,
+     "pct": -3.9
     },
     {
-     "ticker": "CRDO",
-     "name": "Credo Technology Group Holding Ltd",
+     "ticker": "AMAT",
+     "name": "Applied Materials Inc",
      "sector": "Technology",
-     "price": 106.46,
-     "pct": -13.07
+     "price": 311.18,
+     "pct": -3.89
     },
     {
-     "ticker": "AOSL",
-     "name": "Alpha & Omega Semiconductor Ltd",
+     "ticker": "MKSI",
+     "name": "MKS Inc",
      "sector": "Technology",
-     "price": 21.35,
-     "pct": -13.03
+     "price": 183.82,
+     "pct": -3.79
     },
     {
-     "ticker": "UCTT",
-     "name": "Ultra Clean Holdings Inc",
+     "ticker": "PI",
+     "name": "Impinj Inc",
      "sector": "Technology",
-     "price": 36.08,
-     "pct": -12.38
+     "price": 154.62,
+     "pct": -3.76
     },
     {
-     "ticker": "MEI",
-     "name": "Methode Electronics Inc",
+     "ticker": "LIF",
+     "name": "Life360 Inc",
      "sector": "Technology",
-     "price": 9.9,
-     "pct": -12.31
+     "price": 38.93,
+     "pct": -3.65
     },
     {
-     "ticker": "DIOD",
-     "name": "Diodes Inc",
+     "ticker": "AAOI",
+     "name": "Applied Optoelectronics Inc",
      "sector": "Technology",
-     "price": 72.51,
-     "pct": -12.17
+     "price": 37.02,
+     "pct": -3.59
     },
     {
-     "ticker": "FN",
-     "name": "Fabrinet",
+     "ticker": "ADSK",
+     "name": "Autodesk Inc",
      "sector": "Technology",
-     "price": 290.12,
-     "pct": -11.88
+     "price": 246.79,
+     "pct": -3.48
     },
     {
-     "ticker": "CRWV",
-     "name": "CoreWeave Inc",
-     "sector": "Technology",
-     "price": 42.6,
-     "pct": -11.85
+     "ticker": "AMZN",
+     "name": "AMAZON.COM INC",
+     "sector": "Consumer Cyclical",
+     "price": 244.43,
+     "pct": -3.12
     },
     {
-     "ticker": "DELL",
-     "name": "Dell Technologies Inc",
+     "ticker": "DOCN",
+     "name": "DigitalOcean Holdings Inc",
      "sector": "Technology",
-     "price": 295.28,
-     "pct": -11.83
+     "price": 71.72,
+     "pct": -3.09
     }
    ]
   },
@@ -304,157 +304,178 @@
      "ticker": "ZS",
      "name": "Zscaler Inc",
      "sector": "Technology",
-     "price": 231.62,
-     "pct": 25.07
+     "price": 230.86,
+     "pct": 16.7
     },
     {
-     "ticker": "NTSK",
-     "name": "Netskope Inc",
+     "ticker": "BL",
+     "name": "BlackLine Inc",
      "sector": "Technology",
-     "price": 25.53,
-     "pct": 22.45
+     "price": 28.42,
+     "pct": 15.15
     },
     {
-     "ticker": "TENB",
-     "name": "Tenable Holdings Inc",
-     "sector": "Technology",
-     "price": 45.23,
-     "pct": 17.18
-    },
-    {
-     "ticker": "RPD",
-     "name": "Rapid7 Inc",
-     "sector": "Technology",
-     "price": 15.6,
-     "pct": 14.45
-    },
-    {
-     "ticker": "PANW",
-     "name": "Palo Alto Networks Inc",
-     "sector": "Technology",
-     "price": 352.99,
-     "pct": 14.13
-    },
-    {
-     "ticker": "OKTA",
-     "name": "Okta Inc",
-     "sector": "Technology",
-     "price": 198.12,
-     "pct": 13.51
-    },
-    {
-     "ticker": "S",
-     "name": "SentinelOne Inc",
-     "sector": "Technology",
-     "price": 24.0,
-     "pct": 13.48
+     "ticker": "AXON",
+     "name": "AXON ENTERPRISE INC",
+     "sector": "Industrials",
+     "price": 343.05,
+     "pct": 14.09
     },
     {
      "ticker": "GPGI",
      "name": "GPGI Inc",
      "sector": "Industrials",
-     "price": 14.55,
-     "pct": 13.08
+     "price": 15.25,
+     "pct": 13.98
     },
     {
-     "ticker": "TJX",
-     "name": "TJX COMPANIES INC",
-     "sector": "Consumer Cyclical",
-     "price": 143.86,
-     "pct": 10.79
+     "ticker": "CSGP",
+     "name": "COSTAR GROUP INC",
+     "sector": "Real Estate",
+     "price": 34.02,
+     "pct": 13.78
     },
     {
-     "ticker": "DLTR",
-     "name": "DOLLAR TREE INC",
-     "sector": "Consumer Defensive",
-     "price": 154.65,
-     "pct": 10.69
-    },
-    {
-     "ticker": "GPN",
-     "name": "GLOBAL PAYMENTS INC",
-     "sector": "Industrials",
-     "price": 94.28,
-     "pct": 10.5
-    },
-    {
-     "ticker": "TGT",
-     "name": "TARGET CORP",
-     "sector": "Consumer Defensive",
-     "price": 176.06,
-     "pct": 10.36
-    },
-    {
-     "ticker": "QLYS",
-     "name": "Qualys Inc",
+     "ticker": "NTSK",
+     "name": "Netskope Inc",
      "sector": "Technology",
-     "price": 192.16,
-     "pct": 10.01
+     "price": 26.44,
+     "pct": 12.49
     },
     {
      "ticker": "MRNA",
      "name": "MODERNA INC",
      "sector": "Healthcare",
-     "price": 227.38,
-     "pct": 9.95
+     "price": 220.84,
+     "pct": 12.22
     },
     {
-     "ticker": "RBRK",
-     "name": "Rubrik Inc",
+     "ticker": "GPN",
+     "name": "GLOBAL PAYMENTS INC",
+     "sector": "Industrials",
+     "price": 96.03,
+     "pct": 12.16
+    },
+    {
+     "ticker": "ADIG",
+     "name": "ADI Global Distribution Inc",
      "sector": "Technology",
-     "price": 110.63,
-     "pct": 9.88
+     "price": 9.99,
+     "pct": 11.0
     },
     {
-     "ticker": "MKC",
-     "name": "MCCORMICK + CO NON VTG SHRS",
-     "sector": "Consumer Defensive",
-     "price": 49.03,
-     "pct": 9.61
-    },
-    {
-     "ticker": "DT",
-     "name": "Dynatrace Inc",
+     "ticker": "NABL",
+     "name": "N-able Inc/US",
      "sector": "Technology",
-     "price": 46.88,
-     "pct": 8.54
+     "price": 5.24,
+     "pct": 10.08
+    },
+    {
+     "ticker": "VERX",
+     "name": "Vertex Inc",
+     "sector": "Technology",
+     "price": 18.95,
+     "pct": 9.54
+    },
+    {
+     "ticker": "CTSH",
+     "name": "Cognizant Technology Solutions Corp",
+     "sector": "Technology",
+     "price": 63.32,
+     "pct": 9.27
+    },
+    {
+     "ticker": "HPQ",
+     "name": "HP Inc",
+     "sector": "Technology",
+     "price": 31.15,
+     "pct": 8.69
+    },
+    {
+     "ticker": "DHI",
+     "name": "DR HORTON INC",
+     "sector": "Consumer Cyclical",
+     "price": 156.87,
+     "pct": 8.64
+    },
+    {
+     "ticker": "GDYN",
+     "name": "Grid Dynamics Holdings Inc",
+     "sector": "Technology",
+     "price": 14.12,
+     "pct": 8.53
     },
     {
      "ticker": "BMI",
      "name": "Badger Meter Inc",
      "sector": "Technology",
-     "price": 165.63,
-     "pct": 8.3
+     "price": 169.04,
+     "pct": 8.05
     },
     {
-     "ticker": "CVLT",
-     "name": "Commvault Systems Inc",
+     "ticker": "DBX",
+     "name": "Dropbox Inc",
      "sector": "Technology",
-     "price": 153.74,
-     "pct": 8.24
+     "price": 37.41,
+     "pct": 7.93
     },
     {
-     "ticker": "AVPT",
-     "name": "AvePoint Inc",
-     "sector": "Technology",
-     "price": 17.07,
-     "pct": 8.11
+     "ticker": "F",
+     "name": "FORD MOTOR CO",
+     "sector": "Consumer Cyclical",
+     "price": 12.17,
+     "pct": 7.89
+    },
+    {
+     "ticker": "PHM",
+     "name": "PULTEGROUP INC",
+     "sector": "Consumer Cyclical",
+     "price": 134.84,
+     "pct": 7.86
+    },
+    {
+     "ticker": "MKC",
+     "name": "MCCORMICK + CO NON VTG SHRS",
+     "sector": "Consumer Defensive",
+     "price": 49.85,
+     "pct": 7.6
     }
    ],
    "losers": [
     {
+     "ticker": "AMBA",
+     "name": "Ambarella Inc",
+     "sector": "Technology",
+     "price": 35.68,
+     "pct": -34.7
+    },
+    {
      "ticker": "ICHR",
      "name": "Ichor Holdings Ltd",
      "sector": "Technology",
-     "price": 26.39,
-     "pct": -21.55
+     "price": 25.64,
+     "pct": -24.5
     },
     {
-     "ticker": "MSTR",
-     "name": "Strategy Inc",
+     "ticker": "AMD",
+     "name": "Advanced Micro Devices Inc",
      "sector": "Technology",
-     "price": 77.55,
-     "pct": -19.64
+     "price": 406.03,
+     "pct": -23.41
+    },
+    {
+     "ticker": "CORZ",
+     "name": "Core Scientific Inc",
+     "sector": "Technology",
+     "price": 10.82,
+     "pct": -22.99
+    },
+    {
+     "ticker": "UCTT",
+     "name": "Ultra Clean Holdings Inc",
+     "sector": "Technology",
+     "price": 35.21,
+     "pct": -20.29
     },
     {
      "ticker": "SNDK",
@@ -464,267 +485,246 @@
      "pct": -19.45
     },
     {
-     "ticker": "SMTC",
-     "name": "Semtech Corp",
+     "ticker": "NTNX",
+     "name": "Nutanix Inc",
      "sector": "Technology",
-     "price": 86.46,
-     "pct": -19.02
+     "price": 46.3,
+     "pct": -19.28
     },
     {
-     "ticker": "CORZ",
-     "name": "Core Scientific Inc",
-     "sector": "Technology",
-     "price": 10.99,
-     "pct": -18.65
-    },
-    {
-     "ticker": "MXL",
-     "name": "MaxLinear Inc",
-     "sector": "Technology",
-     "price": 41.89,
-     "pct": -18.53
-    },
-    {
-     "ticker": "ADI",
-     "name": "Analog Devices Inc",
-     "sector": "Technology",
-     "price": 312.95,
-     "pct": -18.43
-    },
-    {
-     "ticker": "IREN",
-     "name": "IREN Ltd",
-     "sector": "Financial Services",
-     "price": 12.95,
-     "pct": -18.06
-    },
-    {
-     "ticker": "OUST",
-     "name": "Ouster Inc",
-     "sector": "Technology",
-     "price": 24.99,
-     "pct": -18.01
-    },
-    {
-     "ticker": "AMD",
-     "name": "Advanced Micro Devices Inc",
-     "sector": "Technology",
-     "price": 413.27,
-     "pct": -17.91
-    },
-    {
-     "ticker": "AEVA",
-     "name": "Aeva Technologies Inc",
-     "sector": "Technology",
-     "price": 8.26,
-     "pct": -17.07
-    },
-    {
-     "ticker": "AMBA",
-     "name": "Ambarella Inc",
-     "sector": "Technology",
-     "price": 44.47,
-     "pct": -16.94
-    },
-    {
-     "ticker": "BMNR",
-     "name": "BitMine Immersion Technologies Inc",
-     "sector": "Financial Services",
-     "price": 13.18,
-     "pct": -16.9
-    },
-    {
-     "ticker": "AOSL",
-     "name": "Alpha & Omega Semiconductor Ltd",
-     "sector": "Technology",
-     "price": 21.35,
-     "pct": -16.86
-    },
-    {
-     "ticker": "CLSK",
-     "name": "Cleanspark Inc",
-     "sector": "Financial Services",
-     "price": 5.11,
-     "pct": -16.83
-    },
-    {
-     "ticker": "QBTS",
-     "name": "D-Wave Quantum Inc",
-     "sector": "Technology",
-     "price": 6.74,
-     "pct": -16.58
-    },
-    {
-     "ticker": "UCTT",
-     "name": "Ultra Clean Holdings Inc",
-     "sector": "Technology",
-     "price": 36.08,
-     "pct": -16.37
-    },
-    {
-     "ticker": "SEDG",
-     "name": "SolarEdge Technologies Inc",
-     "sector": "Technology",
-     "price": 18.21,
-     "pct": -16.16
-    },
-    {
-     "ticker": "AEHR",
-     "name": "Aehr Test Systems",
-     "sector": "Technology",
-     "price": 41.89,
-     "pct": -15.78
+     "ticker": "WSM",
+     "name": "WILLIAMS SONOMA INC",
+     "sector": "Consumer Cyclical",
+     "price": 212.39,
+     "pct": -18.34
     },
     {
      "ticker": "MARA",
      "name": "MARA Holdings Inc",
      "sector": "Financial Services",
-     "price": 5.41,
-     "pct": -15.73
+     "price": 5.42,
+     "pct": -17.38
+    },
+    {
+     "ticker": "CLSK",
+     "name": "Cleanspark Inc",
+     "sector": "Financial Services",
+     "price": 5.18,
+     "pct": -16.59
+    },
+    {
+     "ticker": "WULF",
+     "name": "Terawulf Inc",
+     "sector": "Financial Services",
+     "price": 10.03,
+     "pct": -16.42
+    },
+    {
+     "ticker": "AEHR",
+     "name": "Aehr Test Systems",
+     "sector": "Technology",
+     "price": 41.44,
+     "pct": -16.25
+    },
+    {
+     "ticker": "TTMI",
+     "name": "TTM Technologies Inc",
+     "sector": "Technology",
+     "price": 58.17,
+     "pct": -16.19
+    },
+    {
+     "ticker": "CIFR",
+     "name": "Cipher Digital Inc",
+     "sector": "Technology",
+     "price": 5.51,
+     "pct": -16.13
+    },
+    {
+     "ticker": "AEVA",
+     "name": "Aeva Technologies Inc",
+     "sector": "Technology",
+     "price": 8.4,
+     "pct": -15.75
+    },
+    {
+     "ticker": "IREN",
+     "name": "IREN Ltd",
+     "sector": "Financial Services",
+     "price": 12.85,
+     "pct": -15.68
+    },
+    {
+     "ticker": "ANET",
+     "name": "Arista Networks Inc",
+     "sector": "Technology",
+     "price": 163.99,
+     "pct": -15.44
+    },
+    {
+     "ticker": "MXL",
+     "name": "MaxLinear Inc",
+     "sector": "Technology",
+     "price": 42.05,
+     "pct": -15.1
+    },
+    {
+     "ticker": "AVGO",
+     "name": "Broadcom Inc",
+     "sector": "Technology",
+     "price": 300.86,
+     "pct": -15.02
+    },
+    {
+     "ticker": "APLD",
+     "name": "Applied Digital Corp",
+     "sector": "Technology",
+     "price": 12.29,
+     "pct": -14.95
     }
    ]
   },
   "2W": {
    "winners": [
     {
-     "ticker": "NTSK",
-     "name": "Netskope Inc",
-     "sector": "Technology",
-     "price": 25.53,
-     "pct": 19.08
-    },
-    {
      "ticker": "ZS",
      "name": "Zscaler Inc",
      "sector": "Technology",
-     "price": 231.62,
-     "pct": 18.83
+     "price": 230.86,
+     "pct": 19.13
+    },
+    {
+     "ticker": "NTSK",
+     "name": "Netskope Inc",
+     "sector": "Technology",
+     "price": 26.44,
+     "pct": 18.19
     },
     {
      "ticker": "BILL",
      "name": "BILL Holdings Inc",
      "sector": "Technology",
-     "price": 61.45,
-     "pct": 14.35
-    },
-    {
-     "ticker": "KVYO",
-     "name": "Klaviyo Inc",
-     "sector": "Technology",
-     "price": 23.22,
-     "pct": 13.66
+     "price": 61.55,
+     "pct": 13.08
     },
     {
      "ticker": "DBX",
      "name": "Dropbox Inc",
      "sector": "Technology",
-     "price": 36.57,
-     "pct": 12.87
-    },
-    {
-     "ticker": "ATEN",
-     "name": "A10 Networks Inc",
-     "sector": "Technology",
-     "price": 30.94,
-     "pct": 11.57
-    },
-    {
-     "ticker": "OKTA",
-     "name": "Okta Inc",
-     "sector": "Technology",
-     "price": 198.12,
-     "pct": 11.08
-    },
-    {
-     "ticker": "DLTR",
-     "name": "DOLLAR TREE INC",
-     "sector": "Consumer Defensive",
-     "price": 154.65,
-     "pct": 9.81
-    },
-    {
-     "ticker": "QLYS",
-     "name": "Qualys Inc",
-     "sector": "Technology",
-     "price": 192.16,
-     "pct": 9.74
-    },
-    {
-     "ticker": "GNRC",
-     "name": "GENERAC HOLDINGS INC",
-     "sector": "Industrials",
-     "price": 198.36,
-     "pct": 9.12
+     "price": 37.41,
+     "pct": 12.82
     },
     {
      "ticker": "TDC",
      "name": "Teradata Corp",
      "sector": "Technology",
-     "price": 35.71,
-     "pct": 8.94
-    },
-    {
-     "ticker": "TGT",
-     "name": "TARGET CORP",
-     "sector": "Consumer Defensive",
-     "price": 176.06,
-     "pct": 8.83
-    },
-    {
-     "ticker": "PANW",
-     "name": "Palo Alto Networks Inc",
-     "sector": "Technology",
-     "price": 352.99,
-     "pct": 8.16
-    },
-    {
-     "ticker": "DPZ",
-     "name": "DOMINO S PIZZA INC",
-     "sector": "Consumer Cyclical",
-     "price": 356.52,
-     "pct": 8.02
-    },
-    {
-     "ticker": "BOX",
-     "name": "Box Inc",
-     "sector": "Technology",
-     "price": 45.92,
-     "pct": 7.92
-    },
-    {
-     "ticker": "REGN",
-     "name": "REGENERON PHARMACEUTICALS",
-     "sector": "Healthcare",
-     "price": 987.09,
-     "pct": 7.86
-    },
-    {
-     "ticker": "DT",
-     "name": "Dynatrace Inc",
-     "sector": "Technology",
-     "price": 46.88,
-     "pct": 7.79
-    },
-    {
-     "ticker": "TENB",
-     "name": "Tenable Holdings Inc",
-     "sector": "Technology",
-     "price": 45.23,
-     "pct": 7.79
-    },
-    {
-     "ticker": "RPD",
-     "name": "Rapid7 Inc",
-     "sector": "Technology",
-     "price": 15.6,
-     "pct": 7.66
+     "price": 37.42,
+     "pct": 12.44
     },
     {
      "ticker": "CSGP",
      "name": "COSTAR GROUP INC",
      "sector": "Real Estate",
-     "price": 32.64,
-     "pct": 7.62
+     "price": 34.02,
+     "pct": 12.39
+    },
+    {
+     "ticker": "KVYO",
+     "name": "Klaviyo Inc",
+     "sector": "Technology",
+     "price": 23.74,
+     "pct": 11.82
+    },
+    {
+     "ticker": "OKTA",
+     "name": "Okta Inc",
+     "sector": "Technology",
+     "price": 201.77,
+     "pct": 10.71
+    },
+    {
+     "ticker": "TSCO",
+     "name": "TRACTOR SUPPLY COMPANY",
+     "sector": "Consumer Cyclical",
+     "price": 40.37,
+     "pct": 10.57
+    },
+    {
+     "ticker": "DPZ",
+     "name": "DOMINO S PIZZA INC",
+     "sector": "Consumer Cyclical",
+     "price": 361.53,
+     "pct": 10.02
+    },
+    {
+     "ticker": "BRO",
+     "name": "BROWN + BROWN INC",
+     "sector": "Financial Services",
+     "price": 78.43,
+     "pct": 9.86
+    },
+    {
+     "ticker": "NABL",
+     "name": "N-able Inc/US",
+     "sector": "Technology",
+     "price": 5.24,
+     "pct": 9.39
+    },
+    {
+     "ticker": "KHC",
+     "name": "KRAFT HEINZ CO/THE",
+     "sector": "Consumer Defensive",
+     "price": 26.51,
+     "pct": 9.23
+    },
+    {
+     "ticker": "VIA",
+     "name": "Via Transportation Inc",
+     "sector": "Technology",
+     "price": 46.71,
+     "pct": 9.11
+    },
+    {
+     "ticker": "PCG",
+     "name": "P G + E CORP",
+     "sector": "Utilities",
+     "price": 14.26,
+     "pct": 8.85
+    },
+    {
+     "ticker": "AXON",
+     "name": "AXON ENTERPRISE INC",
+     "sector": "Industrials",
+     "price": 343.05,
+     "pct": 8.76
+    },
+    {
+     "ticker": "ATEN",
+     "name": "A10 Networks Inc",
+     "sector": "Technology",
+     "price": 31.1,
+     "pct": 8.44
+    },
+    {
+     "ticker": "CHRW",
+     "name": "C.H. ROBINSON WORLDWIDE INC",
+     "sector": "Industrials",
+     "price": 144.82,
+     "pct": 8.27
+    },
+    {
+     "ticker": "CHTR",
+     "name": "CHARTER COMMUNICATIONS INC A",
+     "sector": "Communication Services",
+     "price": 147.27,
+     "pct": 8.04
+    },
+    {
+     "ticker": "FRSH",
+     "name": "Freshworks Inc",
+     "sector": "Technology",
+     "price": 13.03,
+     "pct": 7.86
     }
    ],
    "losers": [
@@ -732,141 +732,141 @@
      "ticker": "ADIG",
      "name": "ADI Global Distribution Inc",
      "sector": "Technology",
-     "price": 9.76,
-     "pct": -48.82
-    },
-    {
-     "ticker": "RGTI",
-     "name": "Rigetti Computing Inc",
-     "sector": "Technology",
-     "price": 7.59,
-     "pct": -37.53
-    },
-    {
-     "ticker": "IONQ",
-     "name": "IonQ Inc",
-     "sector": "Technology",
-     "price": 22.4,
-     "pct": -35.98
-    },
-    {
-     "ticker": "MSTR",
-     "name": "Strategy Inc",
-     "sector": "Technology",
-     "price": 77.55,
-     "pct": -35.95
-    },
-    {
-     "ticker": "QBTS",
-     "name": "D-Wave Quantum Inc",
-     "sector": "Technology",
-     "price": 6.74,
-     "pct": -35.69
-    },
-    {
-     "ticker": "OUST",
-     "name": "Ouster Inc",
-     "sector": "Technology",
-     "price": 24.99,
-     "pct": -34.62
-    },
-    {
-     "ticker": "IREN",
-     "name": "IREN Ltd",
-     "sector": "Financial Services",
-     "price": 12.95,
-     "pct": -34.36
-    },
-    {
-     "ticker": "AEVA",
-     "name": "Aeva Technologies Inc",
-     "sector": "Technology",
-     "price": 8.26,
-     "pct": -32.68
-    },
-    {
-     "ticker": "NVTS",
-     "name": "Navitas Semiconductor Corp",
-     "sector": "Technology",
-     "price": 6.51,
-     "pct": -30.6
-    },
-    {
-     "ticker": "AEHR",
-     "name": "Aehr Test Systems",
-     "sector": "Technology",
-     "price": 41.89,
-     "pct": -29.68
-    },
-    {
-     "ticker": "SEDG",
-     "name": "SolarEdge Technologies Inc",
-     "sector": "Technology",
-     "price": 18.21,
-     "pct": -29.58
-    },
-    {
-     "ticker": "BMNR",
-     "name": "BitMine Immersion Technologies Inc",
-     "sector": "Financial Services",
-     "price": 13.18,
-     "pct": -27.1
-    },
-    {
-     "ticker": "APLD",
-     "name": "Applied Digital Corp",
-     "sector": "Technology",
-     "price": 12.22,
-     "pct": -26.74
+     "price": 9.99,
+     "pct": -48.98
     },
     {
      "ticker": "AMBA",
      "name": "Ambarella Inc",
      "sector": "Technology",
-     "price": 44.47,
-     "pct": -26.33
+     "price": 35.68,
+     "pct": -42.9
     },
     {
-     "ticker": "ENPH",
-     "name": "Enphase Energy Inc",
-     "sector": "Technology",
-     "price": 20.37,
-     "pct": -26.3
-    },
-    {
-     "ticker": "MARA",
-     "name": "MARA Holdings Inc",
+     "ticker": "IREN",
+     "name": "IREN Ltd",
      "sector": "Financial Services",
-     "price": 5.41,
-     "pct": -26.29
+     "price": 12.85,
+     "pct": -38.34
     },
     {
-     "ticker": "LASR",
-     "name": "nLight Inc",
+     "ticker": "AEHR",
+     "name": "Aehr Test Systems",
      "sector": "Technology",
-     "price": 32.66,
-     "pct": -25.77
+     "price": 41.44,
+     "pct": -37.0
     },
     {
-     "ticker": "CRNC",
-     "name": "Cerence Inc",
+     "ticker": "MSTR",
+     "name": "Strategy Inc",
      "sector": "Technology",
-     "price": 6.42,
-     "pct": -25.44
+     "price": 79.96,
+     "pct": -34.65
+    },
+    {
+     "ticker": "AEVA",
+     "name": "Aeva Technologies Inc",
+     "sector": "Technology",
+     "price": 8.4,
+     "pct": -34.58
+    },
+    {
+     "ticker": "QBTS",
+     "name": "D-Wave Quantum Inc",
+     "sector": "Technology",
+     "price": 7.0,
+     "pct": -34.27
+    },
+    {
+     "ticker": "AAOI",
+     "name": "Applied Optoelectronics Inc",
+     "sector": "Technology",
+     "price": 37.02,
+     "pct": -33.73
+    },
+    {
+     "ticker": "OUST",
+     "name": "Ouster Inc",
+     "sector": "Technology",
+     "price": 25.77,
+     "pct": -32.57
+    },
+    {
+     "ticker": "NVTS",
+     "name": "Navitas Semiconductor Corp",
+     "sector": "Technology",
+     "price": 6.8,
+     "pct": -32.47
+    },
+    {
+     "ticker": "AXTI",
+     "name": "AXT Inc",
+     "sector": "Technology",
+     "price": 31.98,
+     "pct": -31.91
     },
     {
      "ticker": "ICHR",
      "name": "Ichor Holdings Ltd",
      "sector": "Technology",
-     "price": 26.39,
-     "pct": -25.18
+     "price": 25.64,
+     "pct": -31.54
     },
     {
-     "ticker": "AOSL",
-     "name": "Alpha & Omega Semiconductor Ltd",
+     "ticker": "APLD",
+     "name": "Applied Digital Corp",
      "sector": "Technology",
-     "price": 21.35,
-     "pct": -24.5
+     "price": 12.29,
+     "pct": -31.38
+    },
+    {
+     "ticker": "IONQ",
+     "name": "IonQ Inc",
+     "sector": "Technology",
+     "price": 23.54,
+     "pct": -30.89
+    },
+    {
+     "ticker": "BMNR",
+     "name": "BitMine Immersion Technologies Inc",
+     "sector": "Financial Services",
+     "price": 13.44,
+     "pct": -30.15
+    },
+    {
+     "ticker": "CRWV",
+     "name": "CoreWeave Inc",
+     "sector": "Technology",
+     "price": 42.57,
+     "pct": -29.95
+    },
+    {
+     "ticker": "MXL",
+     "name": "MaxLinear Inc",
+     "sector": "Technology",
+     "price": 42.05,
+     "pct": -29.86
+    },
+    {
+     "ticker": "RGTI",
+     "name": "Rigetti Computing Inc",
+     "sector": "Technology",
+     "price": 7.85,
+     "pct": -29.34
+    },
+    {
+     "ticker": "MARA",
+     "name": "MARA Holdings Inc",
+     "sector": "Financial Services",
+     "price": 5.42,
+     "pct": -29.24
+    },
+    {
+     "ticker": "UCTT",
+     "name": "Ultra Clean Holdings Inc",
+     "sector": "Technology",
+     "price": 35.21,
+     "pct": -29.06
     }
    ]
   },
@@ -876,141 +876,141 @@
      "ticker": "GDYN",
      "name": "Grid Dynamics Holdings Inc",
      "sector": "Technology",
-     "price": 13.88,
-     "pct": 61.21
+     "price": 14.12,
+     "pct": 63.05
     },
     {
      "ticker": "APP",
      "name": "APPLOVIN CORP",
      "sector": "Communication Services",
-     "price": 381.11,
-     "pct": 46.16
+     "price": 378.95,
+     "pct": 44.19
     },
     {
      "ticker": "GPGI",
      "name": "GPGI Inc",
      "sector": "Industrials",
-     "price": 14.55,
-     "pct": 36.14
+     "price": 15.25,
+     "pct": 43.09
     },
     {
      "ticker": "CHTR",
      "name": "CHARTER COMMUNICATIONS INC A",
      "sector": "Communication Services",
-     "price": 135.87,
-     "pct": 32.97
-    },
-    {
-     "ticker": "CMG",
-     "name": "CHIPOTLE MEXICAN GRILL INC",
-     "sector": "Consumer Cyclical",
-     "price": 37.05,
-     "pct": 30.41
-    },
-    {
-     "ticker": "VIA",
-     "name": "Via Transportation Inc",
-     "sector": "Technology",
-     "price": 46.27,
-     "pct": 30.12
-    },
-    {
-     "ticker": "RIOT",
-     "name": "Riot Platforms Inc",
-     "sector": "Financial Services",
-     "price": 16.34,
-     "pct": 29.79
+     "price": 147.27,
+     "pct": 40.35
     },
     {
      "ticker": "PAR",
      "name": "PAR Technology Corp",
      "sector": "Technology",
-     "price": 22.25,
-     "pct": 29.29
+     "price": 23.67,
+     "pct": 40.23
     },
     {
-     "ticker": "PNR",
-     "name": "PENTAIR PLC",
-     "sector": "Industrials",
-     "price": 71.27,
-     "pct": 29.07
+     "ticker": "VYX",
+     "name": "NCR Voyix Corp",
+     "sector": "Technology",
+     "price": 10.56,
+     "pct": 36.61
+    },
+    {
+     "ticker": "CMG",
+     "name": "CHIPOTLE MEXICAN GRILL INC",
+     "sector": "Consumer Cyclical",
+     "price": 37.4,
+     "pct": 33.67
     },
     {
      "ticker": "VNT",
      "name": "Vontier Corp",
      "sector": "Technology",
-     "price": 44.41,
-     "pct": 28.43
+     "price": 45.51,
+     "pct": 31.11
+    },
+    {
+     "ticker": "VIA",
+     "name": "Via Transportation Inc",
+     "sector": "Technology",
+     "price": 46.71,
+     "pct": 29.86
     },
     {
      "ticker": "CLX",
      "name": "CLOROX COMPANY",
      "sector": "Consumer Defensive",
-     "price": 106.82,
-     "pct": 24.91
-    },
-    {
-     "ticker": "IDXX",
-     "name": "IDEXX LABORATORIES INC",
-     "sector": "Healthcare",
-     "price": 712.08,
-     "pct": 24.88
-    },
-    {
-     "ticker": "DLTR",
-     "name": "DOLLAR TREE INC",
-     "sector": "Consumer Defensive",
-     "price": 154.65,
-     "pct": 23.8
-    },
-    {
-     "ticker": "GEN",
-     "name": "Gen Digital Inc",
-     "sector": "Technology",
-     "price": 29.95,
-     "pct": 23.2
-    },
-    {
-     "ticker": "BILL",
-     "name": "BILL Holdings Inc",
-     "sector": "Technology",
-     "price": 61.45,
-     "pct": 23.07
-    },
-    {
-     "ticker": "REGN",
-     "name": "REGENERON PHARMACEUTICALS",
-     "sector": "Healthcare",
-     "price": 987.09,
-     "pct": 22.34
+     "price": 110.94,
+     "pct": 28.84
     },
     {
      "ticker": "VERX",
      "name": "Vertex Inc",
      "sector": "Technology",
-     "price": 18.52,
-     "pct": 22.08
+     "price": 18.95,
+     "pct": 28.04
     },
     {
-     "ticker": "TSCO",
-     "name": "TRACTOR SUPPLY COMPANY",
-     "sector": "Consumer Cyclical",
-     "price": 39.45,
-     "pct": 22.03
-    },
-    {
-     "ticker": "LAW",
-     "name": "CS Disco Inc",
-     "sector": "Technology",
-     "price": 6.07,
-     "pct": 21.4
+     "ticker": "IDXX",
+     "name": "IDEXX LABORATORIES INC",
+     "sector": "Healthcare",
+     "price": 709.46,
+     "pct": 26.41
     },
     {
      "ticker": "FISV",
      "name": "FISERV INC",
      "sector": "\u2014",
-     "price": 58.62,
-     "pct": 21.29
+     "price": 59.78,
+     "pct": 26.12
+    },
+    {
+     "ticker": "TSCO",
+     "name": "TRACTOR SUPPLY COMPANY",
+     "sector": "Consumer Cyclical",
+     "price": 40.37,
+     "pct": 26.0
+    },
+    {
+     "ticker": "GEN",
+     "name": "Gen Digital Inc",
+     "sector": "Technology",
+     "price": 30.17,
+     "pct": 24.93
+    },
+    {
+     "ticker": "BILL",
+     "name": "BILL Holdings Inc",
+     "sector": "Technology",
+     "price": 61.55,
+     "pct": 24.57
+    },
+    {
+     "ticker": "MGM",
+     "name": "MGM RESORTS INTERNATIONAL",
+     "sector": "Consumer Cyclical",
+     "price": 34.65,
+     "pct": 23.79
+    },
+    {
+     "ticker": "EPAM",
+     "name": "EPAM Systems Inc",
+     "sector": "Technology",
+     "price": 164.63,
+     "pct": 23.42
+    },
+    {
+     "ticker": "DLTR",
+     "name": "DOLLAR TREE INC",
+     "sector": "Consumer Defensive",
+     "price": 152.21,
+     "pct": 23.1
+    },
+    {
+     "ticker": "RIOT",
+     "name": "Riot Platforms Inc",
+     "sector": "Financial Services",
+     "price": 16.65,
+     "pct": 22.79
     }
    ],
    "losers": [
@@ -1018,15 +1018,29 @@
      "ticker": "IREN",
      "name": "IREN Ltd",
      "sector": "Financial Services",
-     "price": 12.95,
-     "pct": -49.08
+     "price": 12.85,
+     "pct": -53.17
     },
     {
      "ticker": "AAOI",
      "name": "Applied Optoelectronics Inc",
      "sector": "Technology",
-     "price": 38.4,
-     "pct": -46.62
+     "price": 37.02,
+     "pct": -51.89
+    },
+    {
+     "ticker": "AMBA",
+     "name": "Ambarella Inc",
+     "sector": "Technology",
+     "price": 35.68,
+     "pct": -46.84
+    },
+    {
+     "ticker": "MRVL",
+     "name": "Marvell Technology Inc",
+     "sector": "Technology",
+     "price": 130.93,
+     "pct": -46.25
     },
     {
      "ticker": "SNDK",
@@ -1036,267 +1050,253 @@
      "pct": -45.21
     },
     {
-     "ticker": "MSTR",
-     "name": "Strategy Inc",
-     "sector": "Technology",
-     "price": 77.55,
-     "pct": -44.54
-    },
-    {
      "ticker": "AXTI",
      "name": "AXT Inc",
      "sector": "Technology",
-     "price": 31.58,
-     "pct": -43.88
-    },
-    {
-     "ticker": "MRVL",
-     "name": "Marvell Technology Inc",
-     "sector": "Technology",
-     "price": 131.57,
-     "pct": -43.72
-    },
-    {
-     "ticker": "SEDG",
-     "name": "SolarEdge Technologies Inc",
-     "sector": "Technology",
-     "price": 18.21,
-     "pct": -42.45
-    },
-    {
-     "ticker": "NOW",
-     "name": "ServiceNow Inc",
-     "sector": "Technology",
-     "price": 91.74,
-     "pct": -42.0
-    },
-    {
-     "ticker": "QBTS",
-     "name": "D-Wave Quantum Inc",
-     "sector": "Technology",
-     "price": 6.74,
-     "pct": -41.59
-    },
-    {
-     "ticker": "DDOG",
-     "name": "Datadog Inc",
-     "sector": "Technology",
-     "price": 165.38,
-     "pct": -40.99
+     "price": 31.98,
+     "pct": -45.08
     },
     {
      "ticker": "LITE",
      "name": "Lumentum Holdings Inc",
      "sector": "Technology",
-     "price": 487.12,
-     "pct": -40.46
-    },
-    {
-     "ticker": "ADIG",
-     "name": "ADI Global Distribution Inc",
-     "sector": "Technology",
-     "price": 9.76,
-     "pct": -40.34
-    },
-    {
-     "ticker": "INTC",
-     "name": "Intel Corp",
-     "sector": "Technology",
-     "price": 54.8,
-     "pct": -39.43
-    },
-    {
-     "ticker": "FSLY",
-     "name": "Fastly Inc",
-     "sector": "Technology",
-     "price": 15.63,
-     "pct": -38.97
-    },
-    {
-     "ticker": "BMNR",
-     "name": "BitMine Immersion Technologies Inc",
-     "sector": "Financial Services",
-     "price": 13.18,
-     "pct": -37.09
-    },
-    {
-     "ticker": "APPS",
-     "name": "Digital Turbine Inc",
-     "sector": "Technology",
-     "price": 6.06,
-     "pct": -37.01
+     "price": 476.58,
+     "pct": -44.98
     },
     {
      "ticker": "MXL",
      "name": "MaxLinear Inc",
      "sector": "Technology",
-     "price": 41.89,
-     "pct": -36.98
+     "price": 42.05,
+     "pct": -43.69
     },
     {
-     "ticker": "TEAM",
-     "name": "Atlassian Corp",
+     "ticker": "DDOG",
+     "name": "Datadog Inc",
      "sector": "Technology",
-     "price": 140.81,
-     "pct": -36.97
+     "price": 158.25,
+     "pct": -43.65
+    },
+    {
+     "ticker": "MSTR",
+     "name": "Strategy Inc",
+     "sector": "Technology",
+     "price": 79.96,
+     "pct": -43.45
+    },
+    {
+     "ticker": "FSLY",
+     "name": "Fastly Inc",
+     "sector": "Technology",
+     "price": 15.74,
+     "pct": -42.49
+    },
+    {
+     "ticker": "ADIG",
+     "name": "ADI Global Distribution Inc",
+     "sector": "Technology",
+     "price": 9.99,
+     "pct": -42.49
+    },
+    {
+     "ticker": "QBTS",
+     "name": "D-Wave Quantum Inc",
+     "sector": "Technology",
+     "price": 7.0,
+     "pct": -42.29
+    },
+    {
+     "ticker": "INTC",
+     "name": "Intel Corp",
+     "sector": "Technology",
+     "price": 54.47,
+     "pct": -41.89
+    },
+    {
+     "ticker": "APPS",
+     "name": "Digital Turbine Inc",
+     "sector": "Technology",
+     "price": 5.97,
+     "pct": -41.3
     },
     {
      "ticker": "DELL",
      "name": "Dell Technologies Inc",
      "sector": "Technology",
-     "price": 295.28,
-     "pct": -36.78
+     "price": 297.06,
+     "pct": -40.82
     },
     {
-     "ticker": "SMTC",
-     "name": "Semtech Corp",
+     "ticker": "NOW",
+     "name": "ServiceNow Inc",
      "sector": "Technology",
-     "price": 86.46,
-     "pct": -36.77
+     "price": 92.16,
+     "pct": -40.46
+    },
+    {
+     "ticker": "SEDG",
+     "name": "SolarEdge Technologies Inc",
+     "sector": "Technology",
+     "price": 19.7,
+     "pct": -38.74
+    },
+    {
+     "ticker": "ADEA",
+     "name": "Adeia Inc",
+     "sector": "Technology",
+     "price": 14.03,
+     "pct": -37.95
+    },
+    {
+     "ticker": "BMNR",
+     "name": "BitMine Immersion Technologies Inc",
+     "sector": "Financial Services",
+     "price": 13.44,
+     "pct": -37.84
     }
    ]
   },
   "3M": {
    "winners": [
     {
-     "ticker": "NTSK",
-     "name": "Netskope Inc",
-     "sector": "Technology",
-     "price": 25.53,
-     "pct": 83.41
-    },
-    {
      "ticker": "GDYN",
      "name": "Grid Dynamics Holdings Inc",
      "sector": "Technology",
-     "price": 13.88,
-     "pct": 79.79
+     "price": 14.12,
+     "pct": 78.96
+    },
+    {
+     "ticker": "NTSK",
+     "name": "Netskope Inc",
+     "sector": "Technology",
+     "price": 26.44,
+     "pct": 74.87
     },
     {
      "ticker": "VIA",
      "name": "Via Transportation Inc",
      "sector": "Technology",
-     "price": 46.27,
-     "pct": 67.58
-    },
-    {
-     "ticker": "OSPN",
-     "name": "OneSpan Inc",
-     "sector": "Technology",
-     "price": 23.36,
-     "pct": 52.87
+     "price": 46.71,
+     "pct": 65.29
     },
     {
      "ticker": "MRNA",
      "name": "MODERNA INC",
      "sector": "Healthcare",
-     "price": 227.38,
-     "pct": 51.93
-    },
-    {
-     "ticker": "BRZE",
-     "name": "Braze Inc",
-     "sector": "Technology",
-     "price": 46.44,
-     "pct": 50.73
-    },
-    {
-     "ticker": "LAW",
-     "name": "CS Disco Inc",
-     "sector": "Technology",
-     "price": 6.07,
-     "pct": 48.41
+     "price": 220.84,
+     "pct": 54.68
     },
     {
      "ticker": "EPAM",
      "name": "EPAM Systems Inc",
      "sector": "Technology",
-     "price": 161.48,
-     "pct": 47.66
+     "price": 164.63,
+     "pct": 45.99
     },
     {
-     "ticker": "OKTA",
-     "name": "Okta Inc",
+     "ticker": "OSPN",
+     "name": "OneSpan Inc",
      "sector": "Technology",
-     "price": 198.12,
-     "pct": 47.39
+     "price": 23.39,
+     "pct": 42.93
     },
     {
-     "ticker": "APPN",
-     "name": "Appian Corp",
+     "ticker": "LAW",
+     "name": "CS Disco Inc",
      "sector": "Technology",
-     "price": 54.8,
-     "pct": 42.52
-    },
-    {
-     "ticker": "BOX",
-     "name": "Box Inc",
-     "sector": "Technology",
-     "price": 45.92,
-     "pct": 37.53
-    },
-    {
-     "ticker": "VERX",
-     "name": "Vertex Inc",
-     "sector": "Technology",
-     "price": 18.52,
-     "pct": 36.58
-    },
-    {
-     "ticker": "ZS",
-     "name": "Zscaler Inc",
-     "sector": "Technology",
-     "price": 231.62,
-     "pct": 36.0
-    },
-    {
-     "ticker": "DXC",
-     "name": "DXC Technology Co",
-     "sector": "Technology",
-     "price": 14.31,
-     "pct": 35.64
-    },
-    {
-     "ticker": "DOCU",
-     "name": "Docusign Inc",
-     "sector": "Technology",
-     "price": 80.04,
-     "pct": 34.91
-    },
-    {
-     "ticker": "TENB",
-     "name": "Tenable Holdings Inc",
-     "sector": "Technology",
-     "price": 45.23,
-     "pct": 34.37
-    },
-    {
-     "ticker": "RPD",
-     "name": "Rapid7 Inc",
-     "sector": "Technology",
-     "price": 15.6,
-     "pct": 32.32
+     "price": 6.12,
+     "pct": 38.78
     },
     {
      "ticker": "VNT",
      "name": "Vontier Corp",
      "sector": "Technology",
-     "price": 44.41,
-     "pct": 32.0
+     "price": 45.51,
+     "pct": 37.59
     },
     {
-     "ticker": "TDC",
-     "name": "Teradata Corp",
+     "ticker": "BRZE",
+     "name": "Braze Inc",
      "sector": "Technology",
-     "price": 35.71,
-     "pct": 31.97
+     "price": 46.41,
+     "pct": 36.14
+    },
+    {
+     "ticker": "DXC",
+     "name": "DXC Technology Co",
+     "sector": "Technology",
+     "price": 14.96,
+     "pct": 36.0
+    },
+    {
+     "ticker": "BOX",
+     "name": "Box Inc",
+     "sector": "Technology",
+     "price": 46.37,
+     "pct": 33.48
+    },
+    {
+     "ticker": "APPN",
+     "name": "Appian Corp",
+     "sector": "Technology",
+     "price": 55.08,
+     "pct": 33.04
     },
     {
      "ticker": "NABL",
      "name": "N-able Inc/US",
      "sector": "Technology",
-     "price": 5.01,
-     "pct": 31.84
+     "price": 5.24,
+     "pct": 32.66
+    },
+    {
+     "ticker": "VERX",
+     "name": "Vertex Inc",
+     "sector": "Technology",
+     "price": 18.95,
+     "pct": 32.52
+    },
+    {
+     "ticker": "TDC",
+     "name": "Teradata Corp",
+     "sector": "Technology",
+     "price": 37.42,
+     "pct": 31.07
+    },
+    {
+     "ticker": "IDXX",
+     "name": "IDEXX LABORATORIES INC",
+     "sector": "Healthcare",
+     "price": 709.46,
+     "pct": 30.16
+    },
+    {
+     "ticker": "ACN",
+     "name": "Accenture PLC",
+     "sector": "Technology",
+     "price": 240.49,
+     "pct": 29.37
+    },
+    {
+     "ticker": "WMT",
+     "name": "WALMART INC",
+     "sector": "Consumer Defensive",
+     "price": 131.94,
+     "pct": 28.56
+    },
+    {
+     "ticker": "DOCU",
+     "name": "Docusign Inc",
+     "sector": "Technology",
+     "price": 80.75,
+     "pct": 26.57
+    },
+    {
+     "ticker": "BILL",
+     "name": "BILL Holdings Inc",
+     "sector": "Technology",
+     "price": 61.55,
+     "pct": 25.95
     }
    ],
    "losers": [
@@ -1304,71 +1304,92 @@
      "ticker": "IREN",
      "name": "IREN Ltd",
      "sector": "Financial Services",
-     "price": 12.95,
-     "pct": -67.28
+     "price": 12.85,
+     "pct": -68.3
     },
     {
      "ticker": "AAOI",
      "name": "Applied Optoelectronics Inc",
      "sector": "Technology",
-     "price": 38.4,
-     "pct": -66.24
+     "price": 37.02,
+     "pct": -67.32
     },
     {
      "ticker": "CIFR",
      "name": "Cipher Digital Inc",
      "sector": "Technology",
-     "price": 5.52,
-     "pct": -65.54
+     "price": 5.51,
+     "pct": -67.14
     },
     {
      "ticker": "QBTS",
      "name": "D-Wave Quantum Inc",
      "sector": "Technology",
-     "price": 6.74,
-     "pct": -61.51
+     "price": 7.0,
+     "pct": -60.89
     },
     {
      "ticker": "CLSK",
      "name": "Cleanspark Inc",
      "sector": "Financial Services",
-     "price": 5.11,
-     "pct": -58.0
-    },
-    {
-     "ticker": "ADIG",
-     "name": "ADI Global Distribution Inc",
-     "sector": "Technology",
-     "price": 9.76,
-     "pct": -54.79
-    },
-    {
-     "ticker": "APLD",
-     "name": "Applied Digital Corp",
-     "sector": "Technology",
-     "price": 12.22,
-     "pct": -54.52
+     "price": 5.18,
+     "pct": -60.0
     },
     {
      "ticker": "ICHR",
      "name": "Ichor Holdings Ltd",
      "sector": "Technology",
-     "price": 26.39,
-     "pct": -54.2
-    },
-    {
-     "ticker": "AEHR",
-     "name": "Aehr Test Systems",
-     "sector": "Technology",
-     "price": 41.89,
-     "pct": -54.03
+     "price": 25.64,
+     "pct": -56.61
     },
     {
      "ticker": "CRDO",
      "name": "Credo Technology Group Holding Ltd",
      "sector": "Technology",
-     "price": 106.46,
-     "pct": -53.0
+     "price": 106.79,
+     "pct": -55.55
+    },
+    {
+     "ticker": "APLD",
+     "name": "Applied Digital Corp",
+     "sector": "Technology",
+     "price": 12.29,
+     "pct": -55.21
+    },
+    {
+     "ticker": "MARA",
+     "name": "MARA Holdings Inc",
+     "sector": "Financial Services",
+     "price": 5.42,
+     "pct": -54.34
+    },
+    {
+     "ticker": "ADIG",
+     "name": "ADI Global Distribution Inc",
+     "sector": "Technology",
+     "price": 9.99,
+     "pct": -54.34
+    },
+    {
+     "ticker": "AEHR",
+     "name": "Aehr Test Systems",
+     "sector": "Technology",
+     "price": 41.44,
+     "pct": -54.19
+    },
+    {
+     "ticker": "TTMI",
+     "name": "TTM Technologies Inc",
+     "sector": "Technology",
+     "price": 58.17,
+     "pct": -53.36
+    },
+    {
+     "ticker": "UCTT",
+     "name": "Ultra Clean Holdings Inc",
+     "sector": "Technology",
+     "price": 35.21,
+     "pct": -52.9
     },
     {
      "ticker": "SNDK",
@@ -1381,64 +1402,43 @@
      "ticker": "RGTI",
      "name": "Rigetti Computing Inc",
      "sector": "Technology",
-     "price": 7.59,
-     "pct": -52.38
-    },
-    {
-     "ticker": "MARA",
-     "name": "MARA Holdings Inc",
-     "sector": "Financial Services",
-     "price": 5.41,
-     "pct": -51.78
-    },
-    {
-     "ticker": "CRWV",
-     "name": "CoreWeave Inc",
-     "sector": "Technology",
-     "price": 42.6,
-     "pct": -51.59
+     "price": 7.85,
+     "pct": -52.25
     },
     {
      "ticker": "AXTI",
      "name": "AXT Inc",
      "sector": "Technology",
-     "price": 31.58,
-     "pct": -51.55
+     "price": 31.98,
+     "pct": -52.21
     },
     {
      "ticker": "CBRS",
      "name": "Cerebras Systems Inc",
      "sector": "Technology",
-     "price": 88.78,
-     "pct": -51.26
+     "price": 89.68,
+     "pct": -51.96
     },
     {
-     "ticker": "TTMI",
-     "name": "TTM Technologies Inc",
+     "ticker": "CRWV",
+     "name": "CoreWeave Inc",
      "sector": "Technology",
-     "price": 59.42,
-     "pct": -51.18
+     "price": 42.57,
+     "pct": -50.96
     },
     {
-     "ticker": "UCTT",
-     "name": "Ultra Clean Holdings Inc",
+     "ticker": "LITE",
+     "name": "Lumentum Holdings Inc",
      "sector": "Technology",
-     "price": 36.08,
-     "pct": -50.63
+     "price": 476.58,
+     "pct": -50.16
     },
     {
      "ticker": "ACMR",
      "name": "ACM Research Inc",
      "sector": "Technology",
-     "price": 40.34,
-     "pct": -49.01
-    },
-    {
-     "ticker": "NVTS",
-     "name": "Navitas Semiconductor Corp",
-     "sector": "Technology",
-     "price": 6.51,
-     "pct": -48.62
+     "price": 40.28,
+     "pct": -49.96
     }
    ]
   }
